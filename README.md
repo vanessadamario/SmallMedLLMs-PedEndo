@@ -1,6 +1,6 @@
 # SmallMedLLMs-PedEndo
 
-Repository used for testing accuracy, consistency, self-assessment bias of small open-source large language models (LLMs) previously fine-tuned on clinical tasks. LLMs are evaluated on multiple choice questions from the Endocrine Self-Assessment Program using several metrics: 1) sensitivity to prompt, 2) sensitivity to letter token, 3) response variability in stochastic setting, 4) self-assessment bias. 
+Repository used for evaluating accuracy, consistency, self-assessment bias of small (<10 B) open-source large language models (LLMs) previously fine-tuned on clinical tasks. LLMs are evaluated on multiple choice questions from the Endocrine Self-Assessment Program across several metrics: 1) sensitivity to prompt syntax, 2) sensitivity to letter token, 3) response variability in stochastic setting, 4) self-assessment bias. 
 
 All the LLMs are open-source and publicly available on HuggingFace. In these experiments, models were tested as-is. Due to cluster configuration LLMs ran offline. We downloaded the models from HuggingFace, cloning the repository as 
 `hf download FreedomIntelligence/HuatuoGPT-o1-8B`.
