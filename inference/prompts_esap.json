@@ -1,0 +1,3 @@
+{"001": {"start": "Given the following clinical case, consider the question, and provide the most likely answer among the provided options and the reasoning process behind your choice.", "end": "Please, reduce the output to a paragraph and report the logic steps that led to your answer."},
+ "002": {"start": "Consider this clinical case, question, and options available.", "end": "Please do provide your choice among the possible answers. Then provide the reasoning steps behind your choice."}
+}
