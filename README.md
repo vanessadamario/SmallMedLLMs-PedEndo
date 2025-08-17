@@ -1,4 +1,4 @@
-# LlamaT1D
+# SmallMedLLs-PedEndo
 Library for the creation of a Large Language Model based on Llama 3.1 8B model for consultations related to pediatric Type 1 Diabetes.
 
 To use the code, run 
