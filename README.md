@@ -12,3 +12,5 @@ Below we report HuggingFace path and snapshot id.
 [OpenMeditron/Meditron3-8B](https://huggingface.co/OpenMeditron/Meditron3-8B) `15914bcb040cd1a4f263afcd85b84f09ad2efd95`      
 [medicalai/ClinicalGPT-base-zh](https://huggingface.co/medicalai/ClinicalGPT-base-zh) `dbbea8f6ace2c98d1657825a0291c36cd17c5f78`    
 [medicalai/MedFound-7B](https://huggingface.co/medicalai/MedFound-7B) `7ed8b52f45d1ad504dbecae33577cc854c3d4278`    
+
+In `run_experiment_3.sh`, the variable `experiment_id` needs to change depending on output from experiment 1.
