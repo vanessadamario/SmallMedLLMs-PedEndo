@@ -17,7 +17,7 @@ Below we report HuggingFace path and snapshot id.
 
 In `run_experiment_3.sh`, the variable `experiment_id` needs to change depending on output from experiment 1.
 
-All the experiments were performed on Nvidia L40S (48 GB) GPUs, Cuda 12.2. 
+All the LLMs ran on a single Nvidia L40S (48 GB) GPUs, Cuda 12.2. 
 
 `Line 53` in `run_llm_automodel.py` is dependent on machine. Change according to local path for tested LLMs. 
 Code loads [Pediatric ESAP 2021-2022](https://education.endocrine.org/Public/Catalog/Details.aspx?id=HODn1tLcelu3F1NS3oVSrw%3d%3d&returnurl=%2fUsers%2fUserOnlineCourse.aspx%3fLearningActivityID%3dHODn1tLcelu3F1NS3oVSrw%253d%253d#:~:text=Pediatric%20ESAP%202021%2D2022%20is,broad%20review%20of%20pediatric%20endocrinology.) saved in a json format.
