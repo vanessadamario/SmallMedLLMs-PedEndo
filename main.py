@@ -1,5 +1,5 @@
 import sys
-#import transformers
+import transformers
 print("\n\n")
 print("PYTHON:", sys.executable)
 print("PATH_HEAD:", sys.path[:5])
