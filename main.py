@@ -1,6 +1,9 @@
 import sys
 import transformers
+print("\n\n")
 print("PYTHON:", sys.executable)
+print("PATH_HEAD:", sys.path[:5])
+print("\n\n")
 print("TRANSFORMERS:", transformers.__version__)
 print("TRANSFORMERS_FILE:", transformers.__file__)
 
