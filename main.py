@@ -1,11 +1,15 @@
 import sys
 import transformers
+import accelerate
 print("\n\n")
 print("PYTHON:", sys.executable)
 print("PATH_HEAD:", sys.path[:5])
 print("\n\n")
 print("TRANSFORMERS:", transformers.__version__)
 print("TRANSFORMERS_FILE:", transformers.__file__)
+print("\n\n")
+print("ACCELERATE:", accelerate.__version__)
+print("ACCELERATE_FILE:", accelerate.__file__)
 
 import argparse
 from datetime import datetime
