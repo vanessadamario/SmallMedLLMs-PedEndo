@@ -1,3 +1,9 @@
+import sys
+import transformers
+print("PYTHON:", sys.executable)
+print("TRANSFORMERS:", transformers.__version__)
+print("TRANSFORMERS_FILE:", transformers.__file__)
+
 import argparse
 from datetime import datetime
 
