@@ -27,7 +27,7 @@ parser.add_argument('--output_base_extr', type=str, default="data/extracted_file
 parser.add_argument('--output_filename', type=str, default="output_cleaned_xmls.json", required=False)
 parser.add_argument('--maxresults', type=int, default=10000, required=False)
 
-parser.add_argument('--model', type=str, default='llama3.1', choices=['llama3.1', 'medfound7B', 'deepseekr1-1.5B', 'deepseekr1-7B',
+parser.add_argument('--model', type=str, default='llama3.1', choices=['llama3.1', 'bloom-7B', 'qwen2-7B', 'medfound7B', 'deepseekr1-1.5B', 'deepseekr1-7B',
                                                                       'deepseekr1-8B', 'deepseekr1-14B', 'huatuo-o1', 'diabetica-7B',
                                                                       'diabetica-o1', 'medical-llama3-8B', 'ufal', 'meditron3-8B',
                                                                       'biomed-multimodal', 'clinical-chatgpt', 'clinicalBERT',

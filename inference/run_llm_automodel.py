@@ -8,6 +8,8 @@ import json
 
 
 models_dict = {'llama3.1': "meta-llama/Llama-3.1-8B-Instruct",
+               'bloom-7B': "bigscience/bloom-7b1",
+               'qwen2-7B': "Qwen/Qwen2-7B-Instruct",
                'medfound7B': "medicalai/MedFound-7B", 
                'deepseekr1-1.5B': "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B", 
                'deepseekr1-7B': "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
