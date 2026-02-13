@@ -7,7 +7,8 @@ from inference.load_file import _load_file, load_esap
 import json
 
 
-models_dict = {'llama3.1': "meta-llama/Llama-3.1-8B-Instruct",
+models_dict = {'medgemma-4B': "google/medgemma-4b-it",
+               'llama3.1': "meta-llama/Llama-3.1-8B-Instruct",
                'bloom-7B': "bigscience/bloom-7b1",
                'qwen2-7B': "Qwen/Qwen2-7B-Instruct",
                'medfound7B': "medicalai/MedFound-7B", 
