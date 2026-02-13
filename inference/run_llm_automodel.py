@@ -156,7 +156,7 @@ def run_model(local,
 
             # input_ids = tokenizer(input_text, return_tensors="pt").input_ids.to(model.device)
 
-            padding = not model_label == 'meditron7B'
+            padding = not (model_label == 'meditron7B' or model_label=='llama3.1')
             encodings = tokenizer(input_text, return_tensors="pt", padding=padding, truncation=True)
             input_ids = encodings["input_ids"].to(model.device)
             attention_mask = encodings["attention_mask"].to(model.device) # fix warning about padding
