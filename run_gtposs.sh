@@ -14,3 +14,4 @@ for temp in 0.3 0.6 1.0; do
             --temperature $temp
     done
 done
+
