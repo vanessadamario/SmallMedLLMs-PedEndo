@@ -28,8 +28,7 @@ models_dict = {'medgemma-4B': "google/medgemma-4b-it",
                'meditron7B': "malhajar/meditron-7b-chat",
                'biomed-contact-doc1B': "ContactDoctor/Bio-Medical-Llama-3-2-1B-CoT-012025", 
                'biomed-contact-doc8B': "ContactDoctor/Bio-Medical-Llama-3-8B",
-               'gpt-oss-20b': "openai/gpt-oss-20b",
-"
+               'gpt-oss-20b': "openai/gpt-oss-20b"
                 }
 
 
